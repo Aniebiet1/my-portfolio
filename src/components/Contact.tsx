@@ -25,7 +25,7 @@ export const Contact = () => {
                   className="w-full justify-start gap-3 h-auto py-4 hover:bg-primary/10 hover:border-primary transition-all"
                   asChild
                 >
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:you">
                     <Mail className="h-5 w-5 text-primary" />
                     <div className="text-left">
                       <div className="font-semibold">Email</div>
@@ -39,7 +39,7 @@ export const Contact = () => {
                   className="w-full justify-start gap-3 h-auto py-4 hover:bg-tech-cyan/10 hover:border-tech-cyan transition-all"
                   asChild
                 >
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Aniebiet1" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5 text-tech-cyan" />
                     <div className="text-left">
                       <div className="font-semibold">GitHub</div>
@@ -54,7 +54,7 @@ export const Contact = () => {
                   className="w-full justify-start gap-3 h-auto py-4 hover:bg-impact-green/10 hover:border-impact-green transition-all"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                  <a href="https://linkedin.com/in/josephcosmos" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5 text-impact-green" />
                     <div className="text-left">
                       <div className="font-semibold">LinkedIn</div>
@@ -69,13 +69,7 @@ export const Contact = () => {
                   className="w-full justify-start gap-3 h-auto py-4 hover:bg-primary-glow/10 hover:border-primary-glow transition-all"
                   asChild
                 >
-                  <a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="h-5 w-5 text-primary-glow" />
-                    <div className="text-left">
-                      <div className="font-semibold">Portfolio</div>
-                      <div className="text-xs text-muted-foreground">yourportfolio.com</div>
-                    </div>
-                  </a>
+            
                 </Button>
               </div>
             </div>
